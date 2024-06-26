@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(9, 53, 9); 
+    width: 100%;
+   position: fixed;
+    bottom: 87%;
+    z-index: 1;
+}
+.nav .logo img{
+    clip-path: circle();
+    width: 90px;
+}
+
+.navlist ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    font-size: 22px;
+    color: white;
+    gap: 2.4rem;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 30px;
+
+}
+.menuicon{
+    margin-left: 30px;
+   right: 70px;
+   margin-top: 30px;
+   font-size: 30px;
+   display: none ;
+   
+   margin-right: 180px;
+    
+
+
+}
+.navicons ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    gap: 2.4rem;
+    list-style-type: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+}
+.navlist ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.sec1{
+    margin-top: 80px;
+    width: 50%;
+}
+.sec1 h1{
+    font-size: 30px;
+}
+.sec1 p{
+    font-size: 18px;
+}
+.sec2{
+    margin-top: 20px;
+    width: 50%;
+}
+.sec2 h1{
+    font-size: 30px;
+}
+.sec2 p{
+    font-size: 18px;
+}
+.sec3{
+    margin-top: 20px;
+    width: 50%;
+    
+}
+.sec3 h1{
+    font-size: 30px;
+}
+.sec3 p{
+    font-size: 18px;
+}
+section{
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow: rgb(114, 101, 101);
+}
+.foot1 ul{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    gap: 3.4rem;
+    list-style-type: none;
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+footer{
+    background-color: rgb(9, 53, 9); 
+}
+@media (max-width: 600px){
+    .navlist ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(46, 122, 46); 
+        gap: 1rem;
+        overflow: hidden;
+    }
+    .navlist ul li{
+        border-bottom: 1px solid white;
+    }
+    .navlist ul li:hover{
+        background-color: rgb(76, 173, 76); 
+
+
+    }
+    .menuicon{
+        display: block;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(9, 53, 9); 
+       position: fixed;
+        bottom: 87%;
+        z-index: 1;
+    }
+    .navicons{
+        margin-left: 40px;
+        font-size: 50px;
+    }
+    section{
+        text-align: center;
+        width: 100%;
+        margin-left: 1px;
+    }
+    .sec1{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .sec1 h1{
+        font-size: 30px;
+    }
+    .sec1 p{
+        font-size: 18px;
+    }
+    .sec2{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .sec2 h1{
+        font-size: 30px;
+    }
+    .sec2 p{
+        font-size: 18px;
+    }
+    .sec3{
+        margin-top: 20px;
+        width: 100%;
+        
+    }
+    .sec3 h1{
+        font-size: 30px;
+    }
+    .sec3 p{
+        font-size: 18px;
+    }
+    
+}
+@media (max-width: 500px){
+    .navlist ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(46, 122, 46); 
+        gap: 1rem;
+        overflow: hidden;
+    }
+    .navlist ul li{
+        border-bottom: 1px solid white;
+    }
+    .navlist ul li:hover{
+        background-color: rgb(76, 173, 76); 
+
+
+    }
+    .menuicon{
+        display: block;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(9, 53, 9); 
+        width: 100%;
+       position: fixed;
+        bottom: 91%;
+        z-index: 1;
+    }
+    .navicons{
+        margin-left: 40px;
+        font-size: 50px;
+    }
+    .sec1{
+        display: block;
+    }
+    .sec1write{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .sec1write h3{
+        font-size: 40px;
+        line-height: 120%;
+        margin-left: 70px;
+    }
+    .sec1write button{
+        margin-top: 0px;
+        background-color: rgb(9, 53, 9); 
+        border: none;
+        padding: 16px;
+        border-radius: 50px;
+        color: white;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    .sec2 h1{
+        font-size: 40px;
+    }
+    .sec3items{
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    .sec3iems1 a img{
+        width: 220px;
+        height: 250px;
+    }
+    .sec3iems1 h2{
+        position: relative;
+        top: -190px;
+        margin-left: 0px;
+        font-size: 50px;
+        color: rgb(158, 148, 148);
+        opacity: 0.6;
+    }
+    .sec5{
+        display: block;
+    }
+    iframe{
+        width: 500px;
+        height: 450px;
+    }
+    .sec5write{
+        width: 70%;
+        margin-top: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .sec5write h1{
+        font-size: 40px;
+    }
+    .sec5write p{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .sec5write a button{
+        margin-top: 30px;
+        background-color: rgb(9, 53, 9); 
+        border: none;
+        padding: 20px;
+        border-radius: 50px;
+        color: white;
+    }
+    .foot1 ul{
+        display: flex;
+        display: flex;
+        justify-content: center;
+        margin-right: 90px;
+        gap: 3.4rem;
+        list-style-type: none;
+        margin-top: 30px;
+        color: white;
+        font-size: 30px;
+        margin-left: 70px;
+    }
+    .testi1 p{
+        font-size: 20px;
+    }
+    .sec4 h1{
+        font-size: 40px;
+    }
+
+
+
+}

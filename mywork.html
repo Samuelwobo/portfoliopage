@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="mywork.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo">
+                <img src="https://yt3.googleusercontent.com/Yz8eaxJx9bBNr_u685PZe4SLV4x_mJtxWo1iwUIFBkZFfdkW7Xh2sTC42Lok7j0DRpo_jRfTmkQ=s160-c-k-c0x00ffffff-no-rj"
+                    alt="">
+            </div>
+            <div class="navlist">
+                <ul id="menulist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mywork.html">My Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="mailto:ikeakejohn@gmail.com">Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="navicons">
+                <ul>
+                    <li><a href="https://www.youtube.com/@inspiredbyanime"><i style="color: white;" class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/_its.john._?igsh=N25sczFuMjhyajFq&utm_source=qr"><i style="color: white;" class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="menuicon"><i style="color: white;" class="fa-solid fa-bars" onclick="toggleMenu()"></i></div>
+           
+        </div>
+    </nav>
+    <section>
+        <div class="sec1">
+            <div class="sec1frame">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/Ln_a_38D0s8?si=M3sBXvdTSrb7dMc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+           <div class="sec1frame">
+            <iframe width="360" height="315" src="https://www.youtube.com/embed/V2hTTp-zSjk?si=-n5gQdSWqSyG27Pd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           </div>
+            <div class="sec1frame" >
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/Dkwy_MntLWM?si=3JFrDwaVmB8BI_RW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="sec1frame">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/-Iy60-92eKs?si=i7GP1iQDOIiWyjIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="sec1frame">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/TVsRtO0RIuw?si=gqdx_V1Miz3QXaNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="sec1frame">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/-Iy60-92eKs?si=PgcX19SwdTMs8pTl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="foot1">
+            <ul>
+                <li><a href="https://www.youtube.com/@inspiredbyanime"><i style="color: white;" class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/_its.john._?igsh=N25sczFuMjhyajFq&utm_source=qr"><i style="color: white;" class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+        
+        function toggleMenu(){
+            if( menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "300px";
+            }
+            else{
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>

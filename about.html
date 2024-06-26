@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav">
+            <div class="logo">
+                <img src="https://yt3.googleusercontent.com/Yz8eaxJx9bBNr_u685PZe4SLV4x_mJtxWo1iwUIFBkZFfdkW7Xh2sTC42Lok7j0DRpo_jRfTmkQ=s160-c-k-c0x00ffffff-no-rj"
+                    alt="">
+            </div>
+            <div class="navlist">
+                <ul id="menulist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mywork.html">My Work</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="mailto:ikeakejohn@gmail.com">Contact</a></li>
+                </ul>
+
+            </div>
+            <div class="navicons">
+                <ul>
+                    <li><a href="https://www.youtube.com/@inspiredbyanime"><i style="color: white;" class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/_its.john._?igsh=N25sczFuMjhyajFq&utm_source=qr"><i style="color: white;" class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="menuicon"><i style="color: white;" class="fa-solid fa-bars" onclick="toggleMenu()"></i></div>
+           
+        </div>
+    </nav>
+    <section>
+        <div class="sec1">
+            <h1>What Do I do As a video editor?</h1>
+            <p>I transform raw clips and video footage into high-quality finished videos used to inform, engage, and inspire their audience. They use specialized software applications and editing tools to merge content from multiple sources and add pictures, graphics, visual effects, voice, sound effects, and music.</p>
+
+        </div>
+
+        <div class="sec2">
+            <h1>My Job Overview</h1>
+            <p>In the video editor role, I will arrange, assemble, and process dozens of recorded and stock video clips into a seamless whole. You will work closely with the production and marketing teams to ensure alignment with project goals. It is critical that you adhere to established guidelines to effectively convey your message. Success in this role will be demonstrated by producing dynamic, entertaining, and audience-appropriate videos to expand market reach and increase viewer engagement.</p>
+
+        </div>
+
+        <div class="sec3">
+            <h1>My Job Responsibilities and Duties</h1>
+            <ul>
+                <li><p>Edits videos to targeted length and specifications</p></li>
+                <li><p>Handles and organizes raw and edited video files</p></li>
+                <li><p>Exports videos and facilitates mobile and web distribution</p></li>
+                <li><p>Shoots video and produces content as necessary</p></li>
+                <li><p>Explores different versions and directions</p></li>
+            </ul>
+
+        </div>
+    </section>
+    <footer>
+        <div class="foot1">
+            <ul>
+                <li><a href="https://www.youtube.com/@inspiredbyanime"><i style="color: white;" class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com/_its.john._?igsh=N25sczFuMjhyajFq&utm_source=qr"><i style="color: white;" class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        let menulist = document.getElementById("menulist")
+        menulist.style.maxHeight = "0px";
+        
+        function toggleMenu(){
+            if( menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "300px";
+            }
+            else{
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+</html>
